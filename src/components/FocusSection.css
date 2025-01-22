@@ -1,0 +1,90 @@
+/*.container {
+  position: relative;
+  width: 300px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}*/
+.focus-master{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-group {
+  position: absolute;
+}
+
+.small-box1 {
+  margin-left: -5px;
+}
+.small-box2 {
+  margin-right:-30px;
+}
+
+.rectangle-box1 {
+  width: 80px;
+  height: 40px;
+  position: relative;
+  margin-top: -9px;
+  left: -50px;
+  right:40px /* Adjusts spacing between the small box and rectangle */
+}
+
+.rectangle-box2{
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  margin-top: -9px;
+  left: -10px
+  z-index 0;
+}
+
+/* Positioning */
+.top-left {
+  top: 120px;
+  left: -90px;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  top: 50px;
+  right: -70px;
+}
+
+.bottom-right {
+  bottom: 70px;
+  right: -90px;
+  margin-bottom:-60px;
+}
+
+.large-box {
+  position: absolute;
+}
+
+.bubble-slider {
+  display: flex;
+  flex-direction: column; /* Arrange elements in a column */
+  align-items: center; /* Center align the elements */
+  gap: 1rem; /* Add space between the elements */
+  margin-top: -1.5rem;
+}
+
+.bubblebutton {
+  width: 40px;
+  position: relative;
+  z-index: 10;
+}
+.topdiv,
+.bottomdiv {
+  height: 20px;/* Same background color for seamless blending */
+}
