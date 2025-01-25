@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 .hero {
   position: relative;
   width: 100%;
@@ -50,8 +53,8 @@
   cursor: pointer;
   transition: 0.3s;
   display: block;
-  margin-top: -1rem;
-  margin-right: 40px;
+  margin-top: 0.5rem;
+  margin-left: 1 rem;
 }
 
 .hero-content .futureheading{
@@ -76,4 +79,26 @@
   z-index: 4;
   width: 200px;
   bottom: 10px;
+}
+.h1f{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Kanit", serif;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+.h1s{
+    font-weight: 700;
+    margin-top: -6px;
+    font-size: 60px;
+    font-family: "Kanit", serif;
+    color: #ffffff;
+    margin-bottom: -4px;
+}
+.para{
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #b7b6b6;
+    margin-top: auto;
 }

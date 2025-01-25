@@ -1,107 +1,3 @@
-/*
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-
-.focusmater {
-  display: flex;
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  text-align: center; 
-}
-
-.h1f {
-  font-size: 30px;
-  font-family: "Kanit", serif;
-  margin: 0; 
-  color: #000;
-  font-weight: 350;
-}
-
-.para {
-  font-family: "Jost", serif;
-  font-weight: 400;
-  font-size: 15px;
-  color: #a4a3a3;
-  margin: 0; 
-}
-.heighlight{
-  color: orangered;
-}
-
-.box-group {
-  position: absolute;
-}
-
-.small-box1 {
-  margin-left: -5px;
-}
-.small-box2 {
-  margin-right:-30px;
-}
-
-.rectangle-box1 {
-  width: 80px;
-  height: 40px;
-  position: relative;
-  margin-top: -9px;
-  left: -50px;
-  right:40px 
-}
-
-.rectangle-box2{
-  width: 80px;
-  height: 40px;
-  position: absolute;
-  margin-top: -9px;
-  left: -10px
-  z-index 0;
-}
-
-.top-left {
-  top: 120px;
-  left: -90px;
-}
-
-.center {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.top-right {
-  top: 50px;
-  right: -70px;
-}
-
-.bottom-right {
-  bottom: 70px;
-  right: -90px;
-  margin-bottom:-60px;
-}
-
-.large-box {
-  position: absolute;
-}
-
-.bubble-slider {
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  gap: 1rem;
-  margin-top: -1.5rem;
-}
-
-.bubblebutton {
-  width: 40px;
-  position: relative;
-  z-index: 10;
-}
-.topdiv,
-.bottomdiv {
-  height: 20px;
-}
-*/
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -152,12 +48,11 @@
   }
   
   .rectangle-box2{
-    z-index: 2;
-    width: 60px;
+    width: 50px;
     height: 40px;
     position: absolute;
     margin-top: -9px;
-    left: -80px;
+    left: -10px
   }
   
   /* Positioning */
@@ -211,7 +106,7 @@
     background-color: #fff;
     border-radius: 3px;
     border: 1px solid black;
-    width: -200px;
+    width: 250px;
     height: 10px;
   }
   
@@ -220,7 +115,6 @@
     height: 2px;
     margin-right: 20px;
     margin-top: -20px;
-    padding: 0.1%;
   }
   
   .arrow-icon {
