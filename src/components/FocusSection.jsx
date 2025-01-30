@@ -154,8 +154,8 @@ const FocusSection = ({toggleFocusSection}) => {
             <img src="upskill-image.png" alt="Upskill" style={{ height: "100px", width: "100px", left: "150px" }} />
           </div>
           <div className="rectangle-box2">
-          <div className="upskill-button" style={{width:"250px"}}>
-                <div className="graph-icon"><img src="up1.png" alt="up1" style={{width:"12px",height:"12px"}}/></div>
+          <div className="upskill-button" style={{width:"254px",height:"25px"}}>
+                <div className="graph-icon"><img src="up1.png" alt="up1" style={{width:"20px",height:"20px"}}/></div>
                 <span className='txt' style={{fontSize:"12.5px"}}><b>More Time to Upskill:</b> Invest in yourself</span>
                 <div className="arrow-icon"><img src="arrow.png" alt="up1" style={{width:"18px",height:"18px"}}/></div>
           </div>
@@ -169,8 +169,8 @@ const FocusSection = ({toggleFocusSection}) => {
             <img src="family-time.png" alt="Family Time" style={{ width: "100px", height: "100px" }} />
           </div>
           <div className="rectangle-box1">
-          <div className="upskill-button" style={{width:"350px"}}>
-                <div className="graph-icon"><img src="up2.png" alt="up1" style={{width:"12px",height:"12px"}}/></div>
+          <div className="upskill-button" style={{width:"350px",height:"25px"}}>
+                <div className="graph-icon"><img src="up2.png" alt="up1" style={{width:"20px",height:"20px"}}/></div>
                 <span className='txt' style={{fontSize:"12.5px"}}><b>Spend More Time with Family:</b> Prioritize what matters</span>
                 <div className="arrow-icon"><img src="arrow.png" alt="up1" style={{width:"18px",height:"18px"}}/></div>
           </div>
@@ -181,8 +181,8 @@ const FocusSection = ({toggleFocusSection}) => {
             <img src="vacation.png" alt="Vacation" style={{ width: "100px", height: "100px" }} />
           </div>
           <div className="rectangle-box1">
-          <div className="upskill-button" style={{width:"300px"}}>
-                <div className="graph-icon"><img src="up3.png" alt="up1" style={{width:"12px",height:"12px"}}/></div>
+          <div className="upskill-button" style={{width:"300px",height:"25px"}}>
+                <div className="graph-icon"><img src="up3.png" alt="up1" style={{width:"20px",height:"20px"}}/></div>
                 <span className='txt' style={{fontSize:"12.5px"}}><b>Achieve Your Dream Vacation:</b> Make it a reality</span>
                 <div className="arrow-icon"><img src="arrow.png" alt="up1" style={{width:"18px",height:"18px"}}/></div>
           </div>

@@ -222,31 +222,30 @@ const About = () => {
 
       <div className="container">
         <div className='topleft'>
-          <div className="upskill-button" style={{height:"20px"}}>
-            <div className="graph-icon"><img src="abt1.png" alt="abt1" style={{width:"12px",height:"12px"}}/></div>
-            <span className='txt' style={{fontSize:"11.5px"}}>How confident are you in your ability to manage financial stress?</span>
+          <div className="upskill-button" style={{height:"35px",width:"350px"}}>
+            <div className="graph-icon"><img src="abt1.png" alt="abt1" style={{width:"22px",height:"22px"}}/></div>
+            <span className='txt' style={{fontSize:"15px"}}>How confident are you in your ability to manage financial stress?</span>
           </div>
         </div>
         <div className='bottomleft'>
-          <div className="upskill-button" style={{height:"20px"}}>
-            <div className="graph-icon"><img src="abt3.png" alt="abt3" style={{width:"12px",height:"12px"}}/></div>
-            <span className='txt' style={{fontSize:"11.5px"}}>How can you focus on your job/business and compound wealth stress free?</span>
+          <div className="upskill-button" style={{height:"35px",width:"350px"}}>
+            <div className="graph-icon"><img src="abt3.png" alt="abt3" style={{width:"22px",height:"22px"}}/></div>
+            <span className='txt' style={{fontSize:"15px"}}>How can you focus on your job/business and compound wealth stress free?</span>
           </div>
-
         </div>
         <div className="large-box center">
           <img src="man.png" alt="Focus Section" />
         </div>
         <div className="topright">
-          <div className="upskill-button" style={{height:"20px",width: "350px"}}>
-            <div className="graph-icon"><img src="abt2.png" alt="abt2" style={{width:"12px",height:"12px"}}/></div>
-            <span className='txt' style={{fontSize:"11.5px"}}>Are you spending countless hours on day trading and DIY investing with little to no impact on your financial growth?</span>
+          <div className="upskill-button" style={{height:"35px",width:"450px"}}>
+            <div className="graph-icon"><img src="abt2.png" alt="abt2" style={{width:"22px",height:"22px"}}/></div>
+            <span className='txt' style={{fontSize:"15px"}}>Are you spending countless hours on day trading and DIY investing with little to no impact on your financial growth?</span>
           </div>
         </div>
         <div className="bottomright">
-          <div className="upskill-button" style={{height:"20px"}}>
-            <div className="graph-icon"><img src="abt4.png" alt="abt4" style={{width:"12px",height:"12px"}}/></div>
-            <span className='txt' style={{fontSize:"11.5px"}}>How do you handle emotions of greed and fear in your financial life?</span>
+          <div className="upskill-button" style={{height:"35px",width:"350px"}}>
+            <div className="graph-icon"><img src="abt4.png" alt="abt4" style={{width:"22px",height:"22px"}}/></div>
+            <span className='txt' style={{fontSize:"15px"}}>How do you handle emotions of greed and fear in your financial life?</span>
           </div>
         </div>
       </div>

@@ -16,9 +16,9 @@ const FocusSection2 = ({toggleFocusSection}) => {
             <img src="export1.png" alt="Export" style={{ height: "100px", width: "100px", left: "150px" }} />
           </div>
           <div className="rectangle-box2">
-          <div className="upskill-button" style={{width:"240px"}}>
-                <div className="graph-icon"><img src="f1.png" alt="up1" style={{width:"12px",height:"12px"}}/></div>
-                <span className='txt' style={{fontSize:"12.5px"}}><b>Exit Strategy:</b> Simplified exit signals</span>
+          <div className="upskill-button" style={{width:"250px",height:"25px"}}>
+                <div className="graph-icon"><img src="f1.png" alt="up1" style={{width:"20px",height:"20px"}}/></div>
+                <span className='txt' style={{fontSize:"13.5px"}}><b>Exit Strategy:</b> Simplified exit signals</span>
                 <div className="arrow-icon"><img src="arrow.png" alt="up1" style={{width:"18px",height:"18px"}}/></div>
             </div>
           </div>
@@ -31,9 +31,9 @@ const FocusSection2 = ({toggleFocusSection}) => {
             <img src="topstock.png" alt="Family Time" style={{ width: "100px", height: "100px" }} />
           </div>
           <div className="rectangle-box1">
-          <div className="upskill-button" style={{width:"310px"}}>
-                <div className="graph-icon"><img src="f2.png" alt="up1" style={{width:"12px",height:"12px"}}/></div>
-                <span className='txt' style={{fontSize:"12.5px"}}><b>Top Stocks to Buy:</b> Clear picks with buy amounts</span>
+          <div className="upskill-button" style={{width:"322px",height:"25px"}}>
+                <div className="graph-icon"><img src="f2.png" alt="up1" style={{width:"20px",height:"20px"}}/></div>
+                <span className='txt' style={{fontSize:"13.5px"}}><b>Top Stocks to Buy:</b> Clear picks with buy amounts</span>
                 <div className="arrow-icon"><img src="arrow.png" alt="up1" style={{width:"18px",height:"18px"}}/></div>
             </div>
           </div>
@@ -43,9 +43,9 @@ const FocusSection2 = ({toggleFocusSection}) => {
             <img src="addmore.png" alt="Vacation" style={{ width: "100px", height: "100px" }} />
           </div>
           <div className="rectangle-box1">
-          <div className="upskill-button" style={{width:"260px"}}>
-                <div className="graph-icon"><img src="f3.png" alt="up1" style={{width:"12px",height:"12px"}}/></div>
-                <span className='txt' style={{fontSize:"12.5px"}}><b>Add More:</b>Timely prompts for scaling up</span>
+          <div className="upskill-button" style={{width:"270px",height:"25px"}}>
+                <div className="graph-icon"><img src="f3.png" alt="up1" style={{width:"20px",height:"20px"}}/></div>
+                <span className='txt' style={{fontSize:"13.5px"}}><b>Add More:</b>Timely prompts for scaling up</span>
                 <div className="arrow-icon"><img src="arrow.png" alt="up1" style={{width:"18px",height:"18px"}}/></div>
             </div>
           </div>

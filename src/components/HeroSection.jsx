@@ -33,7 +33,7 @@ const HeroSection = () => {
       <div className="overlay">
         <div className="hero-content">
           <div>
-            <h1 className='h1f' style={{ color: "white",fontFamily: "'Kanit', serif",fontSize:"50px"}}>Take Control of Your</h1>
+            <h1 className='h1f' style={{ color: "white",fontSize:"50px"}}>Take Control of Your</h1>
             <h1 className='h1s' style={{fontSize:"90px"}}>Financial Future</h1>
             <p className='para' style={{fontSize:"23px"}}>Investvidhi helps you take best financial decisions to achieve your goals</p>
             <div style={{height:"20px"}}></div>
