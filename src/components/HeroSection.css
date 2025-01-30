@@ -102,3 +102,14 @@
     color: #b7b6b6;
     margin-top: auto;
 }
+
+.nav-button {
+  font-family: "Jost", serif;
+  background-color: white; /* Background white */ /* Text orange */
+  padding: 0.7rem 1.2rem; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px; /* Reduced border radius */
+  text-decoration: none; /* Removed underline (though not needed for a button) */
+  cursor: pointer; /* Make sure it looks clickable */
+  transition: background-color 0.3s ease; /* Add a hover transition */
+}

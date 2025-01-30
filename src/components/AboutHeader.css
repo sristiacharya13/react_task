@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.second-div{
+    width: 100%;
+    height: 20px;
+    background-color:white;
+    margin-top: -9.5px;
+  }
+  .nav-links1{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+  }
+  .focus-header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 90vh; 
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -50px;
+    height: calc(100vh - 100px);
+  }
+  
+  .upskill-button {
+    display: flex;
+    align-items: center;
+    padding: 3px 3px;
+    width: 250px;
+    height: 10px;
+  }
+  
+  .graph-icon {
+    width: 2px;
+    height: 2px;
+    margin-right: 20px;
+    margin-top: -20px;
+  }
+  
+  .txt{
+    font-size: 9px;
+    font-family: "Jost", serif;
+  }
+  
+  .h1f{
+    font-size: 30px;
+    font-family: "Kanit", serif;
+    margin: 0; 
+    font-weight: 350;
+    color: orangered;
+  }
+  .para{
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #a4a3a3;
+    margin: 0; 
+  }
+  
+  .topleft{
+    z-index: 2;
+    width: 200px;
+    height: 20px;
+    margin-left: -200px;
+    margin-bottom: 250px;
+  }
+  
+  .bottomleft{
+    z-index: 0;
+    width: 200px;
+    height: 20px;
+    margin-left: -200px;
+    margin-bottom: -200px;
+  }
+  .topright{
+    z-index: 2;
+    width: 200px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: -40px;
+  }
+  
+  .bottomright{
+    z-index:2 ;
+    width: 200px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: 170px;
+  }
+  
+  .logo{
+    font-size: 2rem;
+  }
+
+  .htext{
+    font-size: 14px;
+    font-family: "Jost", serif;
+  }

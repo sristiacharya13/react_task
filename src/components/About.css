@@ -17,7 +17,7 @@
   gap: 1rem;
 }
 
- .background-image{
+.background-image{
       margin-top: 1.5rem;
       width: 50px;
       max-width: 500px;
@@ -37,11 +37,11 @@
 
 .container {
   position: relative;
-  width: 300px;
+  width: 400px;
   height: 400px;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .bubble-slider {
@@ -49,18 +49,19 @@
   flex-direction: column; 
   align-items: center;
   gap: 1rem; 
-  margin-top: -1.5rem;
+  /*margin-top: -1.5rem;*/
+  margin-top: 20px;
 }
 
 .learnmorebutton {
-  width: 70px;
-  margin-top: -2rem;
+  width: 100px;
+  /*margin-top: -2rem;*/
+  cursor: pointer;
 }
 
-
-.large-box{
+/*.large-box{
   margin-top: -5px;
-}
+}*/
 
 .learnmore-link {
 font-size: 1rem;
@@ -69,6 +70,7 @@ text-decoration: none;
 padding: 0.5rem 1rem;
 border-radius: 5px;
 transition: background-color 0.3s, color 0.3s;
+display: block;
 }
 
 .second-div{
@@ -113,14 +115,14 @@ transition: background-color 0.3s, color 0.3s;
 }
 
 .txt{
-  font-size: 9px;
+  font-size: 17px;
   font-family: "Jost", serif;
 }
 
 .h1f{
   font-size: 30px;
   font-family: "Kanit", serif;
-  margin: 0; /* Remove default margins */
+  margin: 0; 
   font-weight: 350;
   color: orangered;
 }
@@ -129,11 +131,48 @@ transition: background-color 0.3s, color 0.3s;
   font-weight: 400;
   font-size: 15px;
   color: #a4a3a3;
-  margin: 0; /* Remove default margins */
+  margin: 0; 
 }
 
+.topleft, .bottomleft, .topright, .bottomright {
+  position: absolute; /* Use absolute positioning */
+  width: auto;  /* Adjust width as needed */
+}
+
+.topleft {
+  top: 90px;
+  left: 45px;
+}
+
+.bottomleft {
+  bottom: 240px;
+  left:45px;
+}
+
+.topright {
+  top: 90px;
+  right: -85px;
+}
+
+.bottomright {
+  top: 120px;
+  right: -85px;
+}
+
+.large-box {
+  margin: 0 auto; /* Center the image */
+  margin-top: -5px;
+}
+
+.large-box img {
+  max-width: 250px; /* Make image responsive */
+  height: auto;
+  display: block; /* Prevent image from affecting layout */
+}
+
+/*
 .topleft{
-  z-index: 0;
+  z-index: 2;
   width: 200px;
   height: 20px;
   margin-left: -200px;
@@ -148,7 +187,7 @@ transition: background-color 0.3s, color 0.3s;
   margin-bottom: -200px;
 }
 .topright{
-  z-index: 0;
+  z-index: 2;
   width: 200px;
   height: 20px;
   margin-left: 200px;
@@ -156,9 +195,159 @@ transition: background-color 0.3s, color 0.3s;
 }
 
 .bottomright{
-  z-index: 0;
+  z-index:2 ;
   width: 200px;
   height: 20px;
   margin-left: 200px;
   margin-top: 170px;
 }
+
+
+
+/* About.css 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.focusmater { 
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.focus-content { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  gap: 1rem;
+}
+
+
+.container {
+  position: relative;
+  width: 400px; 
+  height: 400px;
+  margin: 20px auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.bubble-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 20px; 
+}
+
+.learnmorebutton {
+  width: 100px; 
+  cursor: pointer; 
+}
+
+.learnmore-link {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: block; 
+}
+
+.h1f {
+  font-size: 30px;
+  font-family: "Kanit", serif;
+  margin: 0;
+  font-weight: 350;
+  color: orangered;
+}
+
+.para {
+  font-family: "Jost", serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #a4a3a3;
+  margin: 0;
+  max-width: 600px; 
+  margin: 10px auto;
+}
+
+.upskill-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px; 
+  background-color: #fff;
+  border-radius: 5px; 
+  border: 1px solid black;
+  width: auto; 
+  white-space: nowrap; 
+  margin: 10px; 
+}
+
+.graph-icon {
+  width: 20px; 
+  height: 20px;
+  margin-right: 10px;
+}
+
+.txt {
+  font-size: 14px; 
+  font-family: "Jost", serif;
+}
+
+.topleft, .bottomleft, .topright, .bottomright {
+  position: absolute; 
+  width: auto; 
+}
+
+.topleft {
+  top: 90px;
+  left: 0;
+}
+
+.bottomleft {
+  bottom: 240px;
+  left: 0;
+}
+
+.topright {
+  top: 130px;
+  right: -80px;
+}
+
+.bottomright {
+  top: 120px;
+  right: -80px;
+}
+
+.large-box {
+  margin: 0 auto; 
+  margin-top: 20px;
+}
+
+.large-box img {
+  max-width: 250px;
+  height: auto;
+  display: block; 
+}
+  */
+
+  .breadcrumb-link {  /* Style for the Link component */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent or set a specific color */
+    display: flex; /* To align icon and text */
+    align-items: center; /* Vertically center icon and text */
+  }
+
+  .htext {
+    font-size: 14px;
+    font-family: "Jost", serif;
+    text-decoration: none; /* Redundant here, but good to have */
+    margin-left: 5px; /* Add some spacing between icon and text */
+  }

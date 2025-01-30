@@ -7,8 +7,8 @@ const FocusSection2 = ({toggleFocusSection}) => {
     <>
     <div className='topdiv'></div>
     <div className='focusmater'>
-        <h1 className='h1f' style={{color:"black"}}>Your Future, Our Expertise</h1>
-        <p className='para'>With InvestVidhi, take advantage of <span className='heighlight'>personalized</span> strategies,<span className='heighlight'>AI-driven</span> insights, and <span className='heighlight'>smarter</span> tools to grow your wealth effortlessly.</p>
+        <h1 className='h1f' style={{color:"black",fontSize:"40px"}}>Your Future, Our Expertise</h1>
+        <p className='para'style={{fontSize:"20px"}}>With InvestVidhi, take advantage of <span className='heighlight'>personalized</span> strategies,<span className='heighlight'>AI-driven</span> insights, and <span className='heighlight'>smarter</span> tools to grow your wealth effortlessly.</p>
     </div>
     <div className="container">
         <div className="box-group top-left">
@@ -16,9 +16,9 @@ const FocusSection2 = ({toggleFocusSection}) => {
             <img src="export1.png" alt="Export" style={{ height: "100px", width: "100px", left: "150px" }} />
           </div>
           <div className="rectangle-box2">
-          <div className="upskill-button" style={{width:"180px"}}>
+          <div className="upskill-button" style={{width:"240px"}}>
                 <div className="graph-icon"><img src="f1.png" alt="up1" style={{width:"12px",height:"12px"}}/></div>
-                <span className='txt'><b>Exit Strategy:</b> Simplified exit signals</span>
+                <span className='txt' style={{fontSize:"12.5px"}}><b>Exit Strategy:</b> Simplified exit signals</span>
                 <div className="arrow-icon"><img src="arrow.png" alt="up1" style={{width:"18px",height:"18px"}}/></div>
             </div>
           </div>
@@ -31,9 +31,9 @@ const FocusSection2 = ({toggleFocusSection}) => {
             <img src="topstock.png" alt="Family Time" style={{ width: "100px", height: "100px" }} />
           </div>
           <div className="rectangle-box1">
-          <div className="upskill-button" style={{width:"240px"}}>
+          <div className="upskill-button" style={{width:"310px"}}>
                 <div className="graph-icon"><img src="f2.png" alt="up1" style={{width:"12px",height:"12px"}}/></div>
-                <span className='txt'><b>Top Stocks to Buy:</b> Clear picks with buy amounts</span>
+                <span className='txt' style={{fontSize:"12.5px"}}><b>Top Stocks to Buy:</b> Clear picks with buy amounts</span>
                 <div className="arrow-icon"><img src="arrow.png" alt="up1" style={{width:"18px",height:"18px"}}/></div>
             </div>
           </div>
@@ -43,9 +43,9 @@ const FocusSection2 = ({toggleFocusSection}) => {
             <img src="addmore.png" alt="Vacation" style={{ width: "100px", height: "100px" }} />
           </div>
           <div className="rectangle-box1">
-          <div className="upskill-button" style={{width:"200px"}}>
+          <div className="upskill-button" style={{width:"260px"}}>
                 <div className="graph-icon"><img src="f3.png" alt="up1" style={{width:"12px",height:"12px"}}/></div>
-                <span className='txt'><b>Add More:</b>Timely prompts for scaling up</span>
+                <span className='txt' style={{fontSize:"12.5px"}}><b>Add More:</b>Timely prompts for scaling up</span>
                 <div className="arrow-icon"><img src="arrow.png" alt="up1" style={{width:"18px",height:"18px"}}/></div>
             </div>
           </div>
@@ -56,12 +56,21 @@ const FocusSection2 = ({toggleFocusSection}) => {
                 <img
                   src="bubble2.png"
                   className="bubblebutton"
-                  style={{ width: '25px',height:'5px', cursor: 'pointer' }}
+                  style={{ width: '38px',height:'6.5px', cursor: 'pointer' }}
                   alt="Switch to FocusSection2"
                   onClick={toggleFocusSection}
                 />
+                
+                {/*
                 <Link to="/loading" className="try-now-link">
                   <img src="trynow.png" className="trynowbutton" alt="Try Now" style={{width:"80px"}}/>
+                </Link>
+                */}
+                <Link to="/loading" className="try-now-link">
+                    {/*<img src="trynow.png" className="trynowbutton" alt="Try Now" style={{width:"80px"}}/>*/}
+                    <div className='try-now-button' style={{width:"80px",padding:"3px",backgroundColor:" #ffffff",color:" #ff6600",border:"1px solid #ff6600"}}>Try Now
+                      <img src="arrow-insert.png" style={{width:"15px",height:"15px"}}/>
+                    </div>
                 </Link>
       </div>
       <div className='bottomdiv'></div>
