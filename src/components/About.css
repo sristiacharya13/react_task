@@ -42,6 +42,7 @@
   justify-content: center;
   align-items: center;
   margin: 20px auto;
+  z-index:1;
 }
 
 .bubble-slider {
@@ -142,33 +143,39 @@ display: block;
 .topleft {
   top: 90px;
   left: -45px;
+  z-index:2;
 }
 
 .bottomleft {
   bottom: 240px;
   left:-45px;
-  z-index: 2;
+  z-index: 10;
 }
 
 .topright {
   top: 90px;
   right: -85px;
+  z-index:2;
 }
 
 .bottomright {
   top: 120px;
   right: -85px;
+  z-index:2;
 }
 
 .large-box {
   margin: 0 auto; /* Center the image */
   margin-top: -5px;
+  z-index:-10;
 }
 
 .large-box img {
   max-width: 250px; /* Make image responsive */
   height: auto;
   display: block; /* Prevent image from affecting layout */
+  position:relative;
+  z-index:-10;
 }
 
 
